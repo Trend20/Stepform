@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
+import Email from './Email';
+import Username from './Username';
+import Password from './Password';
  
 class Form extends Component {
     render() { 
         return (
-            <div>
-                Form
-            </div>
+            <form>
+                <Email />
+                <Username />
+                <Password />
+            </form>
         );
     }
 }
