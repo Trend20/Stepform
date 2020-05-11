@@ -1,9 +1,16 @@
 import React from 'react';
  
-const Password = () => {
+const Password = (props) => {
     return (
         <div className="form-group">
-            <input type="password" placeholder="Password" className="form-control" />
+            <h5>Step3</h5>
+            <input type="password" 
+            placeholder="Password" 
+            className="form-control"
+            name="password"
+            id="password"
+            value={props.password}
+            onChange={props.handleChange} />
         </div>
     );
 }
