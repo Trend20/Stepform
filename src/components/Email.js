@@ -1,6 +1,9 @@
 import React from 'react';
  
 const Email = (props) => {
+    if(props.currentForm !== 1){
+        return null
+    }
     return (
         <div className="form-group">
         <h5>Step1</h5>
