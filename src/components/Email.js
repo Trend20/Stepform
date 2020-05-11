@@ -6,7 +6,6 @@ const Email = (props) => {
     }
     return (
         <div className="form-group">
-        <h5>Step1</h5>
             <input type="text" 
             placeholder="Email Address" 
             className="form-control"
